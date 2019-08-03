@@ -1,6 +1,15 @@
 # ChatBot
 Simple python chatbot
 
+# Mandatory
+- pip install nltk
+After NLTK has been downloaded, install required packages
+- import nltk
+- from nltk.stem import WordNetLemmatizer
+- nltk.download('popular', quiet=True) # for downloading popular packages
+- nltk.download('punkt') 
+- nltk.download('wordnet') 
+
 # NLP
 NLP is a way for computers to analyze, understand, and derive meaning from human language in a smart and useful way. By utilizing NLP, developers can organize and structure knowledge to perform tasks such as automatic summarization, translation, named entity recognition, relationship extraction, sentiment analysis, speech recognition, and topic segmentation.
 
